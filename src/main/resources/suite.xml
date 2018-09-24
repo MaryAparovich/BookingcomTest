@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="suite" verbose="1">
+    <test name="Groups">
+        <groups>
+            <run>
+                <include name="accomodation"></include>
+                <include name="rental"></include>
+                <include name="taxi"></include>
+
+            </run>
+        </groups>
+        <packages>
+            <package name="com.epam.aparovich.tests.*" />
+        </packages>
+    </test>
+</suite>
